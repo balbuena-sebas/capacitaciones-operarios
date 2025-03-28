@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastian Balbuena">
+    <meta name="description" content="Metodología 5S para optimización de espacios de trabajo">
+    <title>Metodología 5S</title>
+    <link rel="stylesheet" href="./css/5s-styles.css">
+    <link rel="icon" href="./img/icon-day.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-header">
+                <div class="nav-brand">
+                    <span class="nav-icon">📚</span>
+                    <h1>Sistema de Capacitaciones</h1>
+                </div>
+                <button class="mobile-menu-button" aria-label="Menú de navegación">☰</button>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/seguridad.html" target="_blank">Pirámide de Seguridad</a></li>
+                <li><a href="/5s.html" class="active">Metodología 5S</a></li>
+                <li><a href="/dpo.html" target="_blank">Introducción a DPO</a></li>
+                <li><a href="/capacitacion-operarios.html" target="_blank">Capacitación Operarios</a></li>
+                <li><a href="/marketplace.html" target="_blank">Procedimientos Marketplace</a></li>
+                <li><a href="/manejo-carga.html" target="_blank">Manejo Manual de Cargas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Metodología 5S</h1>
+            <p class="subtitle">Optimización de entornos laborales mediante organización y estandarización</p>
+        </header>
+
+        <section class="intro-section">
+            <div class="intro-card">
+                <p>Originada en Japón, busca optimizar los entornos de trabajo mediante organización, limpieza y estandarización. Objetivo: mejorar seguridad, productividad y calidad, reduciendo costos y desperdicios.</p>
+            </div>
+        </section>
+
+        <section class="etapas-section">
+            <h2 class="section-title">Las 5 Etapas</h2>
+            <div class="features-grid">
+                <article class="etapa-card seiri">
+                    <div class="card-header">
+                        <span class="step-number">1</span>
+                        <h2>Seiri (Selección)</h2>
+                    </div>
+                    <p>Clasificar y eliminar elementos innecesarios del área de trabajo.</p>
+                    <div class="beneficio-box">
+                        <span class="beneficio-title">Beneficios</span>
+                        <p>Mayor espacio útil, reducción de inventarios y mejora en la seguridad.</p>
+                    </div>
+                </article>
+
+                <article class="etapa-card seiton">
+                    <div class="card-header">
+                        <span class="step-number">2</span>
+                        <h2>Seiton (Ordenar)</h2>
+                    </div>
+                    <p>Organizar recursos en lugares específicos para minimizar tiempos de búsqueda.</p>
+                    <div class="example-box">
+                        <span class="example-title">Ejemplo</span>
+                        <p>Definir ubicaciones según frecuencia de uso.</p>
+                    </div>
+                    <div class="beneficio-box">
+                        <span class="beneficio-title">Beneficios</span>
+                        <p>Accesibilidad, eficiencia y seguridad.</p>
+                    </div>
+                </article>
+
+                <article class="etapa-card seiso">
+                    <div class="card-header">
+                        <span class="step-number">3</span>
+                        <h2>Seiso (Limpieza e inspección)</h2>
+                    </div>
+                    <p>Limpiar el entorno e inspeccionar equipos para detectar fallos potenciales.</p>
+                    <div class="example-box">
+                        <span class="example-title">Enfoque</span>
+                        <p>Mantenimiento preventivo.</p>
+                    </div>
+                    <div class="beneficio-box">
+                        <span class="beneficio-title">Beneficios</span>
+                        <p>Menos averías y menor riesgo de accidentes.</p>
+                    </div>
+                </article>
+
+                <article class="etapa-card seiketsu">
+                    <div class="card-header">
+                        <span class="step-number">4</span>
+                        <h2>Seiketsu (Estandarizar)</h2>
+                    </div>
+                    <p>Documentar y normalizar los procesos establecidos en etapas anteriores.</p>
+                    <div class="example-box">
+                        <span class="example-title">Clave</span>
+                        <p>Asignar responsabilidades claras y realizar seguimiento continuo.</p>
+                    </div>
+                </article>
+
+                <article class="etapa-card shitsuke">
+                    <div class="card-header">
+                        <span class="step-number">5</span>
+                        <h2>Shitsuke (Disciplina)</h2>
+                    </div>
+                    <p>Automatizar las prácticas de las 5S como parte de la rutina laboral.</p>
+                    <div class="beneficio-box">
+                        <span class="beneficio-title">Requisito</span>
+                        <p>Compromiso constante para mantener los avances logrados.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="conclusion-section">
+            <div class="conclusion-card">
+                <h2 class="section-title">Conclusión</h2>
+                <p>La implementación de las 5S permite a las empresas adaptarse a cambios, mejorar continuamente y mantener ventajas competitivas. Es fundamental para la reorganización y optimización de procesos.</p>
+            </div>
+        </section>
+
+        <button id="themeToggle" class="theme-toggle" aria-label="Cambiar modo claro/oscuro">🌓 Tema oscuro</button>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>© <span class="current-year"></span> Sistema de Capacitaciones. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/5s-script.js"></script>
+</body>
+</html>

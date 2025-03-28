@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastian Balbuena">
+    <title>Pirámide de Seguridad Integral</title>
+    <link rel="stylesheet" href="./css/seguridad-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icon-day.png">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-header">
+                <div class="nav-brand">
+                    <span class="nav-icon">📚</span>
+                    <h1>Sistema de Capacitaciones</h1>
+                </div>
+                <button class="mobile-menu-button" aria-label="Menú de navegación">☰</button>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/seguridad.html" class="active">Pirámide de Seguridad</a></li>
+                <li><a href="/5s.html" target="_blank">Metodología 5S</a></li>
+                <li><a href="/dpo.html" target="_blank">Introducción a DPO</a></li>
+                <li><a href="/capacitacion-operarios.html" target="_blank">Capacitación Operarios</a></li>
+                <li><a href="/marketplace.html" target="_blank">Procedimientos Marketplace</a></li>
+                <li><a href="/manejo-carga.html" target="_blank">Manejo Manual de Cargas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Pirámide de Seguridad</h1>
+            <p class="subtitle">Clasificación de lesiones e incidentes según gravedad</p>
+            <div class="pyramid-image">
+                <img src="./img/Captura de pantalla 2025-03-25 200348.png" alt="Diagrama de la Pirámide de Seguridad">
+            </div>
+        </header>
+
+        <section class="injury-section">
+            <h2 class="section-title">Clasificación de Lesiones</h2>
+            <div class="injury-grid">
+                <!-- MDI -->
+                <article class="injury-card critical">
+                    <div class="card-header">
+                        <span class="acronym">MDI</span>
+                        <h3>Lesiones Muy Graves</h3>
+                    </div>
+                    <ul class="injury-list">
+                        <li>Hospitalización >24 horas</li>
+                        <li>Pérdida o destrucción de miembros, sentido o función</li>
+                        <li>Amputaciones de tejido óseo</li>
+                        <li>Quemaduras graves</li>
+                        <li class="example">Ejemplo: Amputación de un dedo</li>
+                    </ul>
+                </article>
+
+                <!-- MTI -->
+                <article class="injury-card severe">
+                    <div class="card-header">
+                        <span class="acronym">MTI</span>
+                        <h3>Lesiones Graves</h3>
+                    </div>
+                    <ul class="injury-list">
+                        <li>Fracturas con intervención quirúrgica</li>
+                        <li>Lesiones que requieren yeso</li>
+                        <li>Cortes mayores a 3cm</li>
+                        <li>Lesiones que impidan uso de EPPs</li>
+                        <li class="example">Ejemplo: Fractura de brazo con yeso</li>
+                    </ul>
+                </article>
+
+                <!-- MI -->
+                <article class="injury-card moderate">
+                    <div class="card-header">
+                        <span class="acronym">MI</span>
+                        <h3>Lesiones Moderadas</h3>
+                    </div>
+                    <ul class="injury-list">
+                        <li>Traumatismos sin lesión ósea</li>
+                        <li>Esguinces/Distensiones leves</li>
+                        <li>Lesiones que requieran tratamiento kinesiológico</li>
+                        <li class="example">Ejemplo: Esguince de tobillo</li>
+                    </ul>
+                </article>
+
+                <!-- FAI -->
+                <article class="injury-card minor">
+                    <div class="card-header">
+                        <span class="acronym">FAI</span>
+                        <h3>Lesiones Leves</h3>
+                    </div>
+                    <ul class="injury-list">
+                        <li>Cortes menores a 3cm</li>
+                        <li>Limpieza/lavado de heridas</li>
+                        <li>Utilización de medicamentos con prescripción</li>
+                        <li class="example">Ejemplo: Corte superficial en mano</li>
+                    </ul>
+                </article>
+
+                <!-- SHO -->
+                <article class="injury-card none">
+                    <div class="card-header">
+                        <span class="acronym">SHO</span>
+                        <h3>Sin Lesión</h3>
+                    </div>
+                    <ul class="injury-list">
+                        <li>Eventos de riesgo sin daño físico</li>
+                        <li>Incidentes que podrían haber causado lesión</li>
+                        <li class="example">Ejemplo: Caída sin impacto</li>
+                    </ul>
+                </article>
+
+                <!-- SIF -->
+                <article class="injury-card sif">
+                    <div class="card-header">
+                        <span class="acronym">SIF</span>
+                        <h3>Evento de Seguridad</h3>
+                    </div>
+                    <ul class="injury-list">
+                        <li>Incidente donde una persona podría haber perdido la vida</li>
+                        <li>O sufrido lesiones permanentes</li>
+                        <li>Requiere investigación exhaustiva</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="incident-section">
+            <h2 class="section-title">Clasificación de Incidentes</h2>
+            <div class="table-container">
+                <table class="incident-table">
+                    <thead>
+                        <tr>
+                            <th>Sigla</th>
+                            <th>Definición</th>
+                            <th>Características</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SIF</td>
+                            <td>Evento de Seguridad Grave</td>
+                            <td>Riesgo de muerte o lesión permanente</td>
+                        </tr>
+                        <tr>
+                            <td>MDI</td>
+                            <td>Lesión Muy Grave</td>
+                            <td>Hospitalización prolongada, amputaciones</td>
+                        </tr>
+                        <tr>
+                            <td>MTI</td>
+                            <td>Lesión Grave</td>
+                            <td>Requiere tratamiento médico significativo</td>
+                        </tr>
+                        <tr>
+                            <td>MI</td>
+                            <td>Lesión Moderada</td>
+                            <td>Limitaciones temporales sin secuelas</td>
+                        </tr>
+                        <tr>
+                            <td>FAI</td>
+                            <td>Lesión Leve</td>
+                            <td>Primeros auxilios, impacto mínimo</td>
+                        </tr>
+                        <tr>
+                            <td>SHO</td>
+                            <td>Sin Lesión</td>
+                            <td>Riesgo potencial sin daño físico</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="note-box">
+                <p><strong>Nota importante:</strong> Priorizar la notificación inmediata de todos los incidentes y seguir estrictamente las recomendaciones médicas. La clasificación debe realizarse por personal calificado.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>© <span class="current-year"></span> Sistema de Capacitaciones. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <button id="themeToggle" class="theme-toggle">🌓 Tema oscuro</button>
+
+    <script src="./js/seguridad-script.js"></script>
+</body>
+</html>
