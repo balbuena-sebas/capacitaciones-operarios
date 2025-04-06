@@ -309,21 +309,10 @@ body.dark-mode .feature-card {
 }
 
 /* Responsive */
-@media (max-width: 992px) {
-    .nav-links {
-        gap: 0.5em;
-    }
-    .nav-links a {
-        padding: 0.5rem 0.8rem;
-        font-size: 0.9rem;
-    }
-}
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .nav-container {
         padding: 0 1rem;
-        flex-direction: column;
-        height: auto;
     }
     
     .nav-links {
@@ -333,7 +322,6 @@ body.dark-mode .feature-card {
         width: 100%;
         background-color: var(--color-primary);
         flex-direction: column;
-        align-items: center;
         gap: 0;
         max-height: 0;
         overflow: hidden;
@@ -362,17 +350,29 @@ body.dark-mode .feature-card {
         display: block;
     }
     
-    .nav-brand h1 {
-        font-size: 1.1rem;
+    .container {
+        padding: 1rem;
+    }
+    
+    .hero {
+        padding: 2rem 0;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 1440px) {
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
-
-    .training-cards {
-        grid-template-columns: 1fr;
+    
+    .subtitle {
+        font-size: 1.4rem;
     }
 }
