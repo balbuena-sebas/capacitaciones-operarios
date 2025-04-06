@@ -21,6 +21,7 @@
 }
 
 body {
+    font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     color: var(--color-dark);
@@ -42,6 +43,7 @@ body {
 }
 
 .nav-container {
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     max-width: 1400px;
