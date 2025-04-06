@@ -124,7 +124,7 @@ body {
 .container {
     width: 90%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 4rem auto;
 }
 
 .hero {
@@ -138,13 +138,13 @@ body {
 .hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: var(--color-primary);
+    color: white;
     margin-bottom: 0.5rem;
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: #666;
+    color:white;
 }
 
 .content-card {
