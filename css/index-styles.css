@@ -123,11 +123,9 @@ body {
 
 /* Main Content */
 .container {
-    width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: var(--spacing);
-    min-height: calc(100vh - var(--nav-height) - 60px);
+    padding: 2rem 1.5rem;
 }
 
 .hero {
