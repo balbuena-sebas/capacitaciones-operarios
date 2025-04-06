@@ -118,7 +118,8 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
     display: grid;
@@ -136,14 +137,14 @@ body {
 
 .hero h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.2rem;
-    color: var(--color-primary);
+    font-size: 5rem;
+    color: white;
     margin-bottom: 0.5rem;
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: #666;
+    color:white;
 }
 
 .content-card {
