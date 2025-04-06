@@ -21,7 +21,7 @@
 }
 
 body {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     color: var(--color-dark);
@@ -49,16 +49,14 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
-    height:70px;
-    width: 100%;
+    height: var(--nav-height);
 }
 
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
-    width: 100%;
+    height: var(--nav-height);
 }
 
 .nav-brand {
